@@ -3,8 +3,6 @@ let divsContainer = document.querySelector(".container")
 let changeGridButton = document.querySelector(".btn")
 
 // code to change color of hovered element
-console.log(containerDivs);
-
   divsContainer.addEventListener("mouseover",(e)=>{
     let target = e.target
     target.classList.add("color-change")
